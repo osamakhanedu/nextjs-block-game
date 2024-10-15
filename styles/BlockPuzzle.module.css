@@ -1,0 +1,67 @@
+.blockPuzzle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.gameContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: inline-block;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid #ccc;
+}
+
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.sidebar {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.controls {
+  text-align: left;
+}
+
+.controls p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.controls ul {
+  list-style-type: none;
+}
